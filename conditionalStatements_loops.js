@@ -58,3 +58,43 @@ switch (true){
         console.log('Not divisible by 2 or 3.')
 }
 
+//Exercise 3: For loops
+
+//Q1
+for(let i = 1; i <= 10; i++){
+    console.log(i);
+}
+
+//Q2
+for(let i = 1; i < 20; i++){
+    if(i % 2 === 0){
+        console.log(i);
+    }
+}
+
+//Q3
+let sum = 0;
+for(let i = 1; i <= 100; i++){
+    sum += i;
+}
+console.log(sum);
+
+//Q4
+const numbers1 = [1, 2, 3, 4, 5];
+
+for(let i = 0; i < numbers1.length; i++){
+    console.log(numbers1[i])
+}
+
+//Q5
+const numbers2 = [3,7, 2, 5, 10, 6];
+let largest = numbers2[0];
+
+for (let i = 0; i < numbers2.length; i++){
+    if(numbers2[i] > largest){
+        largest = numbers2[i];
+    }
+}
+console.log(largest);
+
+//
