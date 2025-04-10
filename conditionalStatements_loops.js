@@ -59,7 +59,6 @@ switch (true){
 }
 
 //Exercise 3: For loops
-
 //Q1
 for(let i = 1; i <= 10; i++){
     console.log(i);
@@ -97,4 +96,36 @@ for (let i = 0; i < numbers2.length; i++){
 }
 console.log(largest);
 
-//
+//Exercise 4: While loops
+//Q1
+let num1 = 1;
+while (num1 <= 10){
+    console.log(num1);
+    num1++;
+}
+
+//Q2
+let num2 = 1;
+while (num2 < 20){
+    if(num2 % 2 === 0) {
+        console.log(num2);
+    }
+    num2++;
+}
+
+//Q3
+let whileSum = 0;
+let i = 0;
+while (i <= 100){
+    whileSum += i;
+    i++;
+}
+console.log(whileSum);
+
+//Q4
+let multiOfFive = 5;
+while (multiOfFive < 50){
+    console.log(multiOfFive)
+    multiOfFive += 5;
+}
+
