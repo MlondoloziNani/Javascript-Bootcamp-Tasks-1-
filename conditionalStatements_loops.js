@@ -129,3 +129,42 @@ while (multiOfFive < 50){
     multiOfFive += 5;
 }
 
+//Exercise 5: Do While loops
+//Q1
+let k = 1;
+do{
+    console.log(k);
+    k++;
+}while (k <= 10);
+
+//Q2
+let j = 1;
+let doWhileSum = 0;
+do{
+    doWhileSum += j;
+    j++
+}while (j <= 100);
+console.log(doWhileSum);
+
+//Q3
+let q;
+
+do {
+    q = parseInt(prompt("Enter a number greater than 10:"));
+} while (isNaN(q) || q <= 10);
+
+alert("Thank you! You entered: " + q);
+
+//Q4
+const correctNumber = Math.floor(Math.random() * 10) + 1;
+let guess;
+
+do {
+    guess = parseInt(prompt("Guess a number between 1 and 10:"));
+} while (guess !== correctNumber);
+
+alert("Correct! The number was " + correctNumber);
+
+
+
+
